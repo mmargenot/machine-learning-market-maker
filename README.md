@@ -2,7 +2,7 @@
 Implementation of a Bayesian-style market maker in the vein of 'Intelligent Market-Making in Artificial Financial Markets' by Sanmay Das
 
 Member Variables:
-	Symbol: Ticker for security
+	Symbol: Ticker for security  
 	Distribution: A map of prices with a probability for each price
 	Pa: Ask price, double
 	Pb: Bid price, double
