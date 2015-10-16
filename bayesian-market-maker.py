@@ -1,7 +1,7 @@
 import numpy
-#import matplotlib.pyplot as plt
-#import pandas.io.data as web
-#import datetime
+import matplotlib.pyplot as plt
+import pandas.io.data as web
+import datetime
 
 from scipy.stats import norm
 
@@ -11,6 +11,16 @@ class NaiveMarketMaker:
 		self.setSymbol = StockTicker
 		self.setAlpha = a
 		self.setNoise = s
+
+	def getInitialPrice(self):
+		# Check google finance and get current price
+		#
+		return(100) # placeholder value
+
+	def getVolatility(self):
+		# Check google finance and calculate volatility
+		#
+		return(.05) # placeholder value
 
 	def initialize(self):
 		# Fills out the base distribution using the normal CDF
